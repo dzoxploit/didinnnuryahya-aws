@@ -5,7 +5,7 @@ const kinesisConsumer = require("./backend/kinesis/kinesis-consumer");
 const lambdaFunction = require("./backend/lambda/lambda_function");
 
 // Menjalankan fungsi kinesisConsumer
-kinesisConsumer.someFunction(); // Gantilah dengan nama fungsi yang sesuai
+kinesisConsumer.putRecord(); // Gantilah dengan nama fungsi yang sesuai
 
 // Menjalankan fungsi lambdaFunction
 lambdaFunction.handler(); // Gantilah dengan nama fungsi yang sesuai
